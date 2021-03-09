@@ -1,0 +1,80 @@
+body {
+    background-color:#343a40;
+}
+.overflow {
+    height: 60%;
+    overflow: hidden;
+}
+
+.overflow .card-img-top {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+
+}
+
+.overflow .card-img-top:hover {
+    transform: scale(1.8);
+}
+
+.cardhover {
+    transition: all 0.2s ease-in-out;
+}
+.cardhover:hover {
+    transform: scale(0.9);
+
+}
+
+#nprogress .bar {
+    background: #ff5467;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: #ffbb00;
+    border-left-color: #ffbb00;
+}
+
+
+.logoImg {
+    width: 10rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.logoImg:hover {
+    transform: scale(1.1);
+
+}
+
+.perfil-hover {
+    transition: all 0.2s ease-in-out;
+    min-height: 100%;
+}
+
+.perfil-hover:hover {
+    transform: scale(1.03);
+}
+
+.nav-link:hover { 
+    color:#0d6efd !important; 
+}
+
+.home-perfil {
+   
+}
+
+.skill-color {
+    background-color:  #212529;
+    color: #fff
+}
+
+.buscador {
+    background-color:  #343a40 !important;
+    color:#fff !important;
+    height: 2rem;   
+    border-radius: 3px;
+}
+
+.boton-buscar {
+    height: 2rem;
+    padding-top: 2px !important;
+    border-radius: 3px;
+}
